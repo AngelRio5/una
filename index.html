@@ -1,164 +1,81 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>productos</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/stylo.css">
 </head>
 <body>
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>un bvinito</h3>
-                        <p>Apoco si mi perro</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/1.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>un vinito mas</h3>
-                        <p>una cañita</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/2.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>ni idea</h3>
-                        <p>no se que poner</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/3.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>ni aca</h3>
-                        <p>pero bueno</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/1.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>Mamahuevo</h3>
-                        <p>Apoco si mi perro</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/2.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="icons">
-                    <i class="fa-solid fa-circle-arrow-left"></i>
-                    <img src="images/logo.png" alt="">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="product-content">
-                    <div class="product-txt">
-                        <span>$100</span>
-                        <h3>Mamahuevo</h3>
-                        <p>Apoco si mi perro</p>
-                    </div>
-                    <div class="product-img">
-                        <img src="images/3.png" alt="">
-                    </div>
-                </div>
-                <a href="#" class="btn-1">Comprar</a>
-            </div>
-
-
-
-
-           
-
-
-
-           
-        </div>
         
+    <div class="container">
+        <div class="container-form">
+            <form class="sign-in">
+                <h2>Iniciar Sesión</h2>
+                <div class="social-networks">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </div>
+                <span>Use su correo y contraseña</span>
+                <div class="container-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Password">
+                </div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button class="button">INICIAR SESIÓN</button>
+            </form>
+        </div>
+
+        <div class="container-form">
+            <form class="sign-up">
+                <h2>Registrarse</h2>
+                <div class="social-networks">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </div>
+                <span>Use su correo electrónico para registrarse</span>
+                <div class="container-input">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" placeholder="Nombre">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" placeholder="Password">
+                </div>
+                <button class="button" >REGISTRARSE</button>
+            </form>
+        </div>
+
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Ingrese sus datos personales para usar todas las funciones del sitio</p>
+                <button class="button" id="btn-sign-up">Registrarse</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Hola!</h3>
+                <p>Regístrese con sus datos personales para usar todas las funciones del sitio</p>
+                <button class="button" id="btn-sign-in">Iniciar Sesión</button>
+            </div>
+        </div>
+
     </div>
-    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-       var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow", 
-        grabCursor: true,
-        centerSlides: true,
-        slidesPerView: "auto",
-        loop: true,
-        coverfloweffect:{
-            depth:500,
-            modifer:1,
-            slidesShadows: true,
-            rotate:0,
-            stretch:0,
-        }
-       }) 
-    </script>
+    <script src="/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
